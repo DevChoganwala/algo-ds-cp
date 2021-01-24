@@ -28,7 +28,7 @@ the following loop goes through all nodes to which we can move from node s:
 
 ```cpp
 for (auto u : adj[s]) {
-		// process node u
+	// process node u
 }
 ```
 
