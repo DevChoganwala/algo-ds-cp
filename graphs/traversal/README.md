@@ -4,7 +4,7 @@
 
 Depth-first search always follows a single path in the graph as long as it finds new nodes. After this, it returns to previous nodes and begins to explore other parts of the graph.
 
-time complexity: $O(n+ m)$
+time complexity: `O(n+ m)`
 
 ### Implementation
 
@@ -16,7 +16,7 @@ void dfs(int s) {
 	visited[s] = true;
 	// process node s
 	for (auto u: adj[s]) {
-			dfs(u);
+		dfs(u);
 	}
 }
 ```
@@ -25,7 +25,7 @@ void dfs(int s) {
 
 Breadth-first search goes through the nodes one level after another. First the search explores the nodes whose distance from the starting node is 1, then the nodes whose distance is 2, and so on. This process continues until all nodes have been visited.
 
-time complexity: O(n+ m)
+time complexity: `O(n+ m)`
 
 ### Implementation
 
