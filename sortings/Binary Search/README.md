@@ -1,5 +1,8 @@
 # Binary search
 
+[Topcoder tut](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+
+
 - *lower_bound* returns a pointer to the first array element whose value is at least x.
 - *upper_bound* returns a pointer to the first array element whose value is larger than x.
 - *equal_range* returns both above pointers.
